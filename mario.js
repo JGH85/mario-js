@@ -18,6 +18,11 @@ function printPyramid(height) {
     console.log("Check back soon, our developers are hard at work as we speak!");
 
     // TODO
-    // print that pyramid!
+
+    for (i=2; i<height+2; i++){
+      console.log(' '.repeat(height+2-i) + '#'.repeat(i))
+    }
+
+
 
 }
